@@ -1,7 +1,10 @@
 package br.com.codenation;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Stream;
 
 public class StatisticUtil {
 
@@ -25,19 +28,24 @@ public class StatisticUtil {
 				
 			}
 		}
+
+		int modeValue = 0;
 		for (Map.Entry<Integer, Integer> e: repeatedNumbers.entrySet()) {
-			Integer number = e.getKey();
-			Integer amountNumber = e.getValue();
-			if (amountNumber > modeNumber) {
-				modeNumber = number;
+			Integer key = e.getKey();
+			Integer value = e.getValue();
+			if (value > modeValue ) {
+				modeValue = value;
+				modeNumber = key;
 			}
 		}
 		return modeNumber;
 	}
 
 	public static int median(int[] elements) {
+		Arrays.sort(elements);
 		int resto = elements.length % 2;
 		int medianNumber;
+		
 		if (resto == 0) {
 			medianNumber = elements.length / 2;
 			return (elements[medianNumber] + elements[medianNumber -1])/2;
