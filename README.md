@@ -1,5 +1,24 @@
 # Calcular Media, Moda e Mediana
 
+<p>
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/aceleradev-java/desafio-aceleradev-java-media-moda-mediana">
+    <a href="https://github.com/aceleradev-java/desafio-aceleradev-java-media-moda-mediana">
+        <img alt="Made by" src="https://img.shields.io/badge/made%20by-adriano%20avelino-gree">
+    </a>
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/aceleradev-java/desafio-aceleradev-java-media-moda-mediana">
+    <a href="https://github.com/EliasGcf/readme-template/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aceleradev-java/desafio-aceleradev-java-media-moda-mediana">
+    </a>
+</p>
+
+O Aceleradev é um treinamento da Codenation com duração de 10 semanas de imersão em programação, no meu caso, Java online. Esse é o desafio do segundo módulo que tem como conteúdo:
+- Classes
+- Objetos
+- Encapsulamento
+- Exceções
+- Herança
+
+## Desafio ( Media, Moda e Mediana)
 Você recebeu a tarefa de criar uma classe utilitária que poderá ser utilizada em vários pontos de sua aplicação. Essa classe deve conter métodos para realizar alguns cálculos comuns em análises estatísticas.
 A versão inicial de sua classe deve conter a implementação dos seguintes métodos:
 
